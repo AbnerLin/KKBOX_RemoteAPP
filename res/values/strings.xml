@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KKBOX_RemoteAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">LOGO</string>
+    <string name="logoTitle">Remote KKBOX</string>
+    <string name="ipSetInput">Input the number from PC.</string>
+    <string name="ipSetOk">GO</string>
+    <string name="_playBtn">playBtn</string>
+    <string name="_stopBtn">stopBtn</string>
+    <string name="_volumeupBtn">volumeupBtn</string>
+    <string name="_volumedownBtn">volumedownBtn</string>
+    <string name="_previoustrackBtn">previoustrackBtn</string>
+    <string name="_nexttrackBtn">nexttrackBtn</string>
+
+</resources>

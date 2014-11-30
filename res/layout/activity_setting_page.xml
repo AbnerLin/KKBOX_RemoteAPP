@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/BLACK"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SettingPage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/BLACK"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/logoIMG"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/logoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/logoTitle"
+            android:textColor="@color/WHITE"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/BLACK"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ipInputBox"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:hint="@string/ipSetInput"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:text="@string/ipSetOk" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
